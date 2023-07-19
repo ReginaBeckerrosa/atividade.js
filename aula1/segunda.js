@@ -74,5 +74,11 @@ let prompt = require("prompt-sync")()
 //     console.log(numUsuario);
 //     numUsuario --;
 
-    
+
 // }
+// Questão 10
+let nuUsuario;
+do {
+    nuUsuario = parseInt(prompt("Digite um numero: "));
+} while (nuUsuario !=0);
+console.log("Você acertou!");
